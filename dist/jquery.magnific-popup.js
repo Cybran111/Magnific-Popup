@@ -7,7 +7,7 @@ if (typeof define === 'function' && define.amd) {
  define(['jquery'], factory); 
  } else if (typeof exports === 'object') { 
  // Node/CommonJS 
- factory(require('jquery')); 
+ factory(require('npm-zepto')); 
  } else { 
  // Browser globals 
  factory(window.jQuery || window.Zepto); 
