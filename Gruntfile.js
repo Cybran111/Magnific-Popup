@@ -145,7 +145,7 @@ module.exports = function(grunt) {
             " define(['jquery'], factory); \n" + 
             " } else if (typeof exports === 'object') { \n" +
             " // Node/CommonJS \n" +
-            " factory(require('jquery')); \n" +
+            " factory(require('npm-zepto')); \n" +
             " } else { \n" +
             " // Browser globals \n" +
             " factory(window.jQuery || window.Zepto); \n" +
